@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+import Header from './components/Header'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Welcome to Task Tracker!</h1>
+    <div className="container">
+      <Header title="Task Tracker App"/>
     </div>
   );
 }
